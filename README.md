@@ -10,8 +10,7 @@
 [![Coverage](https://img.shields.io/badge/coverage%20-99%25-yellowgreen.svg?style=for-the-badge)]()
 [![Binder](https://img.shields.io/badge/launch-Tutorial-ff69b4.svg?style=for-the-badge)](https://mybinder.org/v2/gh/Sinotrade/Sinotrade.github.io/master?filepath=tutorial%2Fshioaji_tutorial.ipynb)
 [![doc](https://img.shields.io/badge/docs%20-passing-orange.svg?style=for-the-badge)](https://sinotrade.github.io/)
-[![Gitter](https://img.shields.io/badge/chat-%20on%20gitter-46bc99.svg?style=for-the-badge)](https://gitter.im/Sinotrade/Shioaji?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
-
+[![Telegram](https://img.shields.io/badge/chat-%20on%20telegram-blue.svg?style=for-the-badge)](https://t.me/joinchat/973EyAQlrfthZTk1)
 
 Shioaji is sinopac provide the most pythonic api for trading the taiwan and global financial market.
 You can use your favorite Python packages such as numpy, scipy, pandas, pytorch or tensorflow to build your own trading model with intergrated the shioaji api on cross platform.
@@ -36,11 +35,10 @@ simple run with interactive mode in docker
 ```
 docker run -it sinotrade/shioaji:latest
 ```
-or 
+or
 ```
-docker run -it ypochien/shioaji:{version}
+docker run -it sinotrade/shioaji:{version}
 ```
-
 run with jupyter lab or notebook
 ```
 docker run -p 8888:8888 sinotrade/shioaji:jupyter
