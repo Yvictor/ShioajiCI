@@ -10,7 +10,7 @@ RUN wget --quiet https://repo.anaconda.com/miniconda/Miniconda3-4.5.11-Linux-x86
     echo ". /opt/conda/etc/profile.d/conda.sh" >> ~/.bashrc && \
     echo "conda activate base" >> ~/.bashrc
 
-RUN pip install shioaji==0.3.4.dev2
+RUN pip install shioaji==0.3.4.dev3
 
 WORKDIR /home/work
 CMD ["/bin/bash"]
